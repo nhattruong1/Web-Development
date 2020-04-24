@@ -45,7 +45,7 @@ $.ajax({
   var pageCount =  $(".header").length / pageSize;
    for(var i = 0 ; i<pageCount;i++){
   
-     $("#pagin").append('<li><a href="#">'+(i+1)+'</a></li> ');
+     $("#pagin").append('<li><a>'+(i+1)+'</a></li> ');
    }
       $("#pagin li").first().find("a").addClass("current")
   showPage = function(page) {

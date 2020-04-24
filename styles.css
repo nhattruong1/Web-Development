@@ -90,9 +90,23 @@ tr.header-table {
 /* Paination */
 
 .current {
-    color: green;
-  }
-  
-#pagin li {
-display: inline-block;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+#pagin{
+    padding: 0;
+    display: table;
+    margin: 30px auto;
+}
+#pagin li{
+display: inline;
+color: black;
+margin: 5px;
+}
+#pagin li a{
+padding: 15px;
+}
+#pagin li a:hover{
+    border: 1px solid cornflowerblue;
 }
